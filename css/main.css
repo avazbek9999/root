@@ -1,0 +1,20 @@
+:root{
+    --main-red-color: red;
+}
+
+::selection {
+    background-color: lightgreen;
+    color: white;
+    }
+
+.box{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 9px;
+    border: 1px solid #333;
+    background-color: var(--main-red-color);
+}
+
+.box:nth-child(2n){
+    background-color: yellow;
+} 
